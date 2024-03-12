@@ -1,0 +1,109 @@
+img {
+  width: 200px;
+  height: 150px;
+}
+
+/*The lines above shrinks the width and height of the rose image*/
+
+body {
+  background-color: #c7e6ad;
+}
+/*The line above sets the color for the background of the body*/
+
+.wave{
+  border: #ffea00 1px solid;
+  color: whitesmoke;
+  text-align: center;
+  background-color: red;
+  font-size: 0.9em;
+  height: 40px;
+  overflow: hidden;
+  width: 80%;
+  position:relative;
+  left: 10%;
+  transition: height 4s;
+  display:block;
+}
+
+.wave:hover{
+  height:90%;
+  top:1px;
+  z-index:1;
+}
+
+.wave2{
+  border: #ffea00 1px solid;
+  color: whitesmoke;
+  text-align: center;
+  background-color: orange;
+  font-size: 0.9em;
+  height: 40px;
+  overflow: hidden;
+  width: 80%;
+  position:relative;
+  left: 10%;
+  transition: height 4s;
+  display:block;
+}
+
+.wave2:hover{
+  height:90%;
+  top:1px;
+  z-index:1;
+}
+
+.wave3{
+  border: #ffea00 1px solid;
+  color: whitesmoke;
+  text-align: center;
+  background-color: rosybrown;
+  font-size: 0.9em;
+  height: 40px;
+  overflow: hidden;
+  width: 80%;
+  position:relative;
+  left: 10%;
+  transition: height 4s;
+  display:block;
+}
+
+.wave3:hover{
+  height:90%;
+  top:1px;
+  z-index:1;
+}
+  h2{
+    font-size: 1.5em;
+    font-family: monospace;
+  }
+
+h3{
+  font-family: monospace;
+}
+
+h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p{
+  font-family: cursive;
+}
+
+h5{
+  font-family: cursive;
+}
+
+.container{
+  border: 3px solid #ffdd00;
+  box-shadow: 1px 3px 30px 1px #fdff7a;
+  position: relative;
+  top: 2px;
+  margin: 15px;
+  padding: 10px;
+  height: 700px;
+  overflow: hidden;
+  background-color: #6eae0f;
+  background-image: url();
+  background-size: cover;
+  background-repeat:no-repeat;
+  font-family: Bookman, URW Bookman L, serif;
